@@ -17,7 +17,7 @@
 .vbr-card p,.vbr-it p{margin:0;font-size:14px;line-height:1.6;opacity:.8;white-space:pre-line}
 .vbr-it{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;align-items:center}
 .vbr-slide:not(:has(img,[data-vb-video])) .vbr-cap{position:static;color:#111;text-shadow:none;padding:16px 20px}
-.vbr-it:not(:has(img,[data-vb-video])){grid-template-columns:1fr}
+.vbr-it:not(:has(img,[data-vb-video],.vbi__video)){grid-template-columns:1fr}
 .vbr-it__btn{display:inline-block;margin-top:14px;padding:10px 18px;border-radius:999px;background:#111;color:#fff;text-decoration:none;font-size:14px}
 .vbr-menu{position:relative;font-size:15px}
 .vbr-menu__list{display:flex;flex-wrap:wrap;justify-content:center;gap:2px 28px;margin:0;padding:10px 16px;list-style:none}
